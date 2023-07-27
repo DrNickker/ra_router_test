@@ -25,9 +25,9 @@ export default function Post(props) {
       <header className="post-head">
         <img src="#" alt="#" />
         <div className="post-head-title">
-          <h4 className="name-creator">UserName</h4>
+          <h4 className="name-creator">Nickker</h4>
           <p className="description-creator">
-            Post creator
+            Администратор
             <span className="create-time"> - {time}</span>
             </p>
         </div>
