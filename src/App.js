@@ -42,7 +42,7 @@ export default function App() {
 
   useEffect(() => {
     function fetchDelete() {
-      fetch(process.env.REACT_APP_SERVER + del, {
+      fetch(process.env.REACT_APP_SERVER + del , {
         method: 'DELETE'
       })
       .then(() => fetchGet());
