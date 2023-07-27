@@ -42,7 +42,7 @@ export default function App() {
 
   useEffect(() => {
     function fetchDelete() {
-      fetch(process.env.REACT_APP_SERVER + del , {
+      fetch(process.env.REACT_APP_SERVER + del, {
         method: 'DELETE'
       })
       .then(() => fetchGet());
@@ -69,7 +69,7 @@ export default function App() {
   };
 
   function closeCreate() {
-    setContent('');
+    setContent('/');
   };
 
   function editPost(post) {
