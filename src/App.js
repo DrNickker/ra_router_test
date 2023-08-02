@@ -77,7 +77,7 @@ export default function App() {
       content: post,
       id: Number(postId)
     });
-    setId(0);
+    setId(removePost);
   };
 
   function idPost(id) {
